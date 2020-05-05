@@ -8,7 +8,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 /**
  * Created by neste on 02.05.2020.
  */
-public class FirstTeest {
+public class NavigateTest {
     WebDriver driver;
 
     @BeforeClass
