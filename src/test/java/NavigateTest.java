@@ -31,7 +31,7 @@ public class NavigateTest {
         WebDriver.Navigation navigate = driver.navigate();
         navigate.to("https://www.selenium.dev/");
         String title = driver.getTitle();
-        assertThat(title.equals("SeleniumHQ Browser Automation"));
+        assertThat(title).isEqualTo("SeleniumHQ Browser Automation");
     }
 
     @Test
